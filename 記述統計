@@ -1,4 +1,59 @@
 import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import math
+import matplotlib.pyplot as plt
+import pylab as pl
+import scipy.stats
+import sqlite3
+import matplotlib.pyplot as plt
+import pandas as pd
+import statsmodels.api as sm 
+import statsmodels.formula.api as smf
+
+from pylab import rcParams
+from scipy.stats import norm
+from scipy import stats
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import math
+import matplotlib.pyplot as plt
+import pylab as pl
+import scipy.stats
+import sqlite3
+import matplotlib.pyplot as plt
+import pandas as pd
+import statsmodels.api as sm 
+import statsmodels.formula.api as smf
+
+from pylab import rcParams
+from scipy.stats import norm
+from scipy import stats
+
+print(df.corr())
+corramp = df.corr().round (4)
+plt.figure()
+sns.heatmap(df.corr())
+
+#dfは自分が使っているやつのまま使って
+
+print(df.corr())
+corramp = df.corr().round (4)
+plt.figure()
+sns.heatmap(df.corr())
+
+
+
+
+
+#ここはごうしに関係ないです
+
+import pandas as pd
 csv_data = pd.read_csv("memo.csv")
 column = csv_data["handicap"]
 column_mean = np.mean( column )
